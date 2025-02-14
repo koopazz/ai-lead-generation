@@ -11,7 +11,7 @@ function App() {
             <div className="flex justify-between h-16 items-center">
               <div className="flex items-center">
                 <Bot className="h-8 w-8 text-mint-dark" />
-                <span className="ml-2 text-xl font-bold text-gray-900">AILeadQual</span>
+                <span className="ml-2 text-xl font-bold text-gray-900">AI Based Lead Qualification</span>
               </div>
               
               <div className="hidden md:flex items-center space-x-8">
@@ -35,11 +35,12 @@ function App() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-6xl font-bold text-gray-900 mb-6">
-                  It's all in the AI
+                  AI Based Lead Qualification: Never Speak to Unqualified Leads Again
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 max-w-lg">
-                  Get AI-powered lead qualification that saves your sales team time. 
-                  Screen prospects automatically and only talk to qualified leads ready to buy.
+                  Transform your sales process with advanced AI-powered lead qualification. 
+                  Our intelligent system screens prospects automatically, ensuring you only 
+                  invest time in qualified leads ready to convert.
                 </p>
                 <div className="flex gap-4">
                   <button className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold">
@@ -54,11 +55,11 @@ function App() {
                 <div className="bg-white rounded-2xl p-6 card-shadow">
                   <div className="flex items-center mb-4">
                     <Bot className="h-6 w-6 text-mint-dark mr-2" />
-                    <div className="text-sm text-gray-500">Discover our benefits</div>
+                    <div className="text-sm text-gray-500">AI Lead Qualification Benefits</div>
                   </div>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-xl flex items-center justify-between">
-                      <span className="font-medium">Screen leads instantly</span>
+                      <span className="font-medium">Intelligent Lead Screening</span>
                       <Shield className="h-6 w-6 text-mint-dark" />
                     </div>
                     <div className="bg-gray-50 p-4 rounded-xl flex items-center justify-between">
@@ -78,37 +79,38 @@ function App() {
       </div>
 
       {/* Features Section */}
-      <section className="py-20">
+      <section id="features" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">How it works</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">How AI Based Lead Qualification Works</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our AI-powered platform automatically screens and qualifies leads before they reach your calendar.
+              Our advanced AI platform automatically evaluates and qualifies leads before they reach your calendar,
+              saving your team valuable time and resources.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl card-shadow">
               <Shield className="h-12 w-12 text-mint-dark mb-6" />
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Smart Screening</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Intelligent Screening</h3>
               <p className="text-gray-600">
-                AI evaluates every lead against your ideal customer profile,
-                ensuring only qualified prospects reach your calendar.
+                Our AI technology evaluates leads against your ideal customer profile,
+                ensuring only qualified prospects reach your sales team.
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl card-shadow">
               <Clock className="h-12 w-12 text-mint-dark mb-6" />
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Save Time</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Time Optimization</h3>
               <p className="text-gray-600">
-                Eliminate time wasted on discovery calls with unqualified leads.
-                Focus only on prospects ready to buy.
+                Eliminate time wasted on unqualified leads. Our AI qualification process
+                ensures you focus only on prospects ready to convert.
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl card-shadow">
               <DollarSign className="h-12 w-12 text-mint-dark mb-6" />
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Increase ROI</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Increased Conversion</h3>
               <p className="text-gray-600">
-                Better qualified leads mean higher conversion rates and more
-                revenue for your business.
+                AI-qualified leads convert at higher rates, delivering better ROI
+                and more revenue for your business.
               </p>
             </div>
           </div>
@@ -120,14 +122,14 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white p-16 rounded-2xl card-shadow text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Ready to Transform Your Sales Process?
+              Transform Your Sales Process with AI Based Lead Qualification
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Join hundreds of sales teams who've eliminated unqualified leads
-              and supercharged their sales pipeline.
+              Join hundreds of successful sales teams who've optimized their pipeline
+              with our AI-powered lead qualification system.
             </p>
             <button className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold mx-auto">
-              Get Started Now <ArrowRight className="ml-2 h-5 w-5" />
+              Start Qualifying Leads Now <ArrowRight className="ml-2 h-5 w-5" />
             </button>
           </div>
         </div>
@@ -140,15 +142,15 @@ function App() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Product</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-gray-900">Features</a></li>
-                <li><a href="#" className="hover:text-gray-900">Pricing</a></li>
+                <li><a href="#features" className="hover:text-gray-900">AI Features</a></li>
+                <li><a href="#pricing" className="hover:text-gray-900">Pricing</a></li>
                 <li><a href="#" className="hover:text-gray-900">Case Studies</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-gray-900">About</a></li>
+                <li><a href="#about" className="hover:text-gray-900">About</a></li>
                 <li><a href="#" className="hover:text-gray-900">Blog</a></li>
                 <li><a href="#" className="hover:text-gray-900">Careers</a></li>
               </ul>
@@ -171,7 +173,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
-            <p>&copy; 2025 AI Lead Qualification. All rights reserved.</p>
+            <p>&copy; 2025 AI Based Lead Qualification. All rights reserved.</p>
           </div>
         </div>
       </footer>
