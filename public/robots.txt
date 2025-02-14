@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /features
+Allow: /pricing
+Allow: /about
+Allow: /blog
+Allow: /case-studies
+
+# Prevent access to specific folders
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow sitemap
+Sitemap: https://aileadqualification.com/sitemap.xml
