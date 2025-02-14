@@ -35,7 +35,7 @@ function App() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-6xl font-bold text-gray-900 mb-6">
-                  AI Based Lead Qualification: Never Speak to Unqualified Leads Again
+                  Never Speak to Unqualified Leads Again
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 max-w-lg">
                   Transform your sales process with advanced AI-powered lead qualification. 
@@ -44,7 +44,7 @@ function App() {
                 </p>
                 <div className="flex gap-4">
                   <button className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold">
-                    Start Free Trial <ArrowRight className="ml-2 h-5 w-5" />
+                    Find Out More <ArrowRight className="ml-2 h-5 w-5" />
                   </button>
                   <button className="bg-white text-gray-900 px-8 py-4 rounded-full hover:bg-gray-100 transition-colors text-lg font-semibold">
                     Watch Demo
