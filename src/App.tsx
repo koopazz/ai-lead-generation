@@ -1,7 +1,11 @@
 import React from 'react';
-import { Bot, Search, ArrowRight, Shield, Clock, DollarSign } from 'lucide-react';
+import { Bot, ArrowRight, Shield, Clock, DollarSign } from 'lucide-react';
 
 function App() {
+  const openTypeform = () => {
+    window.open('https://survey.typeform.com/to/WA6BO1la', '_blank');
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header/Navigation */}
@@ -15,13 +19,10 @@ function App() {
               </div>
               
               <div className="hidden md:flex items-center space-x-8">
-                <a href="#features" className="text-gray-600 hover:text-gray-900">Features</a>
-                <a href="#pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
-                <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
-                <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
-                  Login
-                </button>
-                <button className="bg-gray-100 text-gray-900 px-6 py-2 rounded-full hover:bg-gray-200 transition-colors">
+                <a href="#features" className="text-gray-600 hover:text-gray-900" onClick={openTypeform}>Features</a>
+                <a href="#pricing" className="text-gray-600 hover:text-gray-900" onClick={openTypeform}>Pricing</a>
+                <a href="#about" className="text-gray-600 hover:text-gray-900" onClick={openTypeform}>About</a>
+                <button onClick={openTypeform} className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
                   Sign Up
                 </button>
               </div>
@@ -43,10 +44,10 @@ function App() {
                   invest time in qualified leads ready to convert.
                 </p>
                 <div className="flex gap-4">
-                  <button className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold">
+                  <button onClick={openTypeform} className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold">
                     Find Out More <ArrowRight className="ml-2 h-5 w-5" />
                   </button>
-                  <button className="bg-white text-gray-900 px-8 py-4 rounded-full hover:bg-gray-100 transition-colors text-lg font-semibold">
+                  <button onClick={openTypeform} className="bg-white text-gray-900 px-8 py-4 rounded-full hover:bg-gray-100 transition-colors text-lg font-semibold">
                     Watch Demo
                   </button>
                 </div>
@@ -128,7 +129,7 @@ function App() {
               Join hundreds of successful sales teams who've optimized their pipeline
               with our AI-powered lead qualification system.
             </p>
-            <button className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold mx-auto">
+            <button onClick={openTypeform} className="bg-black text-white px-8 py-4 rounded-full hover:bg-gray-800 transition-colors flex items-center text-lg font-semibold mx-auto">
               Start Qualifying Leads Now <ArrowRight className="ml-2 h-5 w-5" />
             </button>
           </div>
@@ -142,33 +143,33 @@ function App() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Product</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#features" className="hover:text-gray-900">AI Features</a></li>
-                <li><a href="#pricing" className="hover:text-gray-900">Pricing</a></li>
-                <li><a href="#" className="hover:text-gray-900">Case Studies</a></li>
+                <li><a href="#features" onClick={openTypeform} className="hover:text-gray-900">AI Features</a></li>
+                <li><a href="#pricing" onClick={openTypeform} className="hover:text-gray-900">Pricing</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Case Studies</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#about" className="hover:text-gray-900">About</a></li>
-                <li><a href="#" className="hover:text-gray-900">Blog</a></li>
-                <li><a href="#" className="hover:text-gray-900">Careers</a></li>
+                <li><a href="#about" onClick={openTypeform} className="hover:text-gray-900">About</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Blog</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Careers</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Resources</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-gray-900">Documentation</a></li>
-                <li><a href="#" className="hover:text-gray-900">Help Center</a></li>
-                <li><a href="#" className="hover:text-gray-900">API</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Documentation</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Help Center</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">API</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Legal</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-gray-900">Privacy</a></li>
-                <li><a href="#" className="hover:text-gray-900">Terms</a></li>
-                <li><a href="#" className="hover:text-gray-900">Security</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Privacy</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Terms</a></li>
+                <li><a href="#" onClick={openTypeform} className="hover:text-gray-900">Security</a></li>
               </ul>
             </div>
           </div>
